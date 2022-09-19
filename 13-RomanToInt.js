@@ -19,32 +19,27 @@ const romanToInt = (s) => {
     switch (s) {
         case "IV":
             s = s.replace("IV", "IIII");
-            console.log(s);
             break;
         case "IX":
             s = s.replace("IX", "VIIII");
-            console.log(s);
             break;
         case "XL":
             s = s.replace("XL", "XXXX");
-            console.log(s);
             break;
         case "XC":
             s = s.replace("XC", "CXXXX");
-            console.log(s);
             break;
         case "CD":
             s = s.replace("CD", "CCCC");
-            console.log(s);
             break;
         case "CM":
             s = s.replace("CM", "DCCCC");
-            console.log(s);
             break;
     }
     let val = 0;
     Array.from(s.split("")).forEach((e)=>{
         val = val + data.e;
+        
         console.log(e);
     })
     return val;
